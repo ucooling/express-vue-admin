@@ -1,32 +1,33 @@
 English | [简体中文](./README_CN.md)
 
-# express-vue-admin
+# Express-Vue-Admin
 
-Minimal admin app build with Node.js and Vue2.
+Minimal admin app build with Node.js, Vue2 and Vuetify.
 
 ## Features
   * Fullstack JavaScript
   * Lean and tested rest api powered by Express.js
   * Minimal but fully work user/role/permission management
-  * Clean UI build with the iview framework
+  * Beautiful UI build with the vuetify framework
 
 ## Components
 
-express-vue-admin use lots of components to build the api server and frontend ui:
+Express-Vue-Admin use lots of components to build the api server and frontend ui:
 
 ### Backend
-* [express](https://expressjs.com/) - backend framework
+* [express](https://expressjs.com/) - web framework
 * [sequelize](http://docs.sequelizejs.com/) - database ORM
 * [joi](https://github.com/hapijs/joi) - validation
 * [dotenv](https://github.com/motdotla/dotenv) - env config
-* [mocha](https://mochajs.org/)/[chai](http://chaijs.com/)/[chai-http](https://github.com/chaijs/chai-http) - test toolchain
+* [mocha](https://mochajs.org/)/[chai](http://chaijs.com/)/[chai-http](https://github.com/chaijs/chai-http) - testing toolchain
 * mysql - database
 * redis - cache
 * ...
 
 ### Frontend
-* [vue2](https://vuejs.org/) - main js framework
-* [iview](https://www.iviewui.com/) - ui framework for vue
+* [vue2](https://vuejs.org/) - javascript framework
+* [vuetify](https://vuetifyjs.com/) - ui framework
+* [Vuetify Material Dashboard](https://github.com/creativetimofficial/vuetify-material-dashboard) - dashboard template
 * [vue-resource](https://github.com/pagekit/vue-resource)/[vue-router](https://github.com/vuejs/vue-router)/[vuex](https://github.com/vuejs/vuex) - vue friends
 * ...
 
